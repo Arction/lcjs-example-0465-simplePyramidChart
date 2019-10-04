@@ -131,11 +131,11 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 [3]: https://stackoverflow.com/questions/tagged/lightningchart
 [4]: https://www.arction.com/support-services/
 
-[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/globals.html#colorpalettes
-[PyramidChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/pyramidchart.html
-[PyramidChartTypes]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/globals.html#pyramidcharttypes
-[PyramidLabelSide]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/enums/pyramidlabelside.html
-[SliceLabelFormatter]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/globals.html#slicelabelformatter
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/solidfill.html
-[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/globals.html#solidfillpalette
-[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/solidline.html
+[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#colorpalettes
+[PyramidChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/pyramidchart.html
+[PyramidChartTypes]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#pyramidcharttypes
+[PyramidLabelSide]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/enums/pyramidlabelside.html
+[SliceLabelFormatter]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#slicelabelformatter
+[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidfill.html
+[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#solidfillpalette
+[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidline.html
