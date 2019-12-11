@@ -14,7 +14,8 @@ The demo can be used as an example or a seed project. Local execution requires t
 
 - The application is available at *http://localhost:8080* in your browser, webpack-dev-server provides hot reload functionality.
 
-### Description
+
+## Description
 
 Pyramid Chart is a chart used to show statistical graphic. The Pyramid chart is divided into slices, with each slice illustrating the numerical portion of the whole Pyramid. Each slice's size (usually depicted as the slice's relative height from the Pyramid) is proportional to its quantity.
 
@@ -100,18 +101,20 @@ pyramid.setLabelConnectorStyle(
 )
 ```
 
-### API links
 
-* Pyramid Chart: [PyramidChart][]
-* Pyramid Chart Types: [PyramidChartTypes][]
-* Pyramid Label Side: [PyramidLabelSide][]
-* Slice label formatter: [SliceLabelFormatter][]
-* Palette: [ColorPalettes][]
-* SolidFillPalette: [SolidFillPalette][]
-* Solid Line: [SolidLine][]
-* Solid Fill: [SolidFill][]
+## API Links
 
-### Support
+* Pyramid Chart: [PyramidChart]
+* Pyramid Chart Types: [PyramidChartTypes]
+* Pyramid Label Side: [PyramidLabelSide]
+* Slice label formatter: [SliceLabelFormatter]
+* Palette: [ColorPalettes]
+* SolidFillPalette: [SolidFillPalette]
+* Solid Line: [SolidLine]
+* Solid Fill: [SolidFill]
+
+
+## Support
 
 If you notice an error in the example code, please open an issue on [GitHub][0] repository of the entire example.
 
@@ -123,19 +126,21 @@ If you think you found a bug in the LightningChart JavaScript library, please co
 
 Direct developer email support can be purchased through a [Support Plan][4] or by contacting sales@arction.com.
 
-© Arction Ltd 2009-2019. All rights reserved.
-
 [0]: https://github.com/Arction/
 [1]: https://www.arction.com/lightningchart-js-api-documentation/
 [2]: https://www.arction.com
 [3]: https://stackoverflow.com/questions/tagged/lightningchart
 [4]: https://www.arction.com/support-services/
 
-[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#colorpalettes
-[PyramidChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/pyramidchart.html
-[PyramidChartTypes]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#pyramidcharttypes
-[PyramidLabelSide]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/enums/pyramidlabelside.html
-[SliceLabelFormatter]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#slicelabelformatter
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidfill.html
-[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#solidfillpalette
-[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidline.html
+© Arction Ltd 2009-2019. All rights reserved.
+
+
+[PyramidChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/pyramidchart.html
+[PyramidChartTypes]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#pyramidcharttypes
+[PyramidLabelSide]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/enums/pyramidlabelside.html
+[SliceLabelFormatter]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#slicelabelformatter
+[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#colorpalettes
+[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#solidfillpalette
+[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/solidline.html
+[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/solidfill.html
+

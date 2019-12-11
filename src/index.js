@@ -1,4 +1,4 @@
-/**
+/*
  * LightningChartJS example that shows the creation and styling of a Pyramid chart.
  */
 // Import LightningChartJS
