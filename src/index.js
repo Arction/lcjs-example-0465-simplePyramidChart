@@ -5,26 +5,26 @@
 const lcjs = require('@arction/lcjs')
 
 // Extract required parts from LightningChartJS.
-const { 
+const {
     PyramidChartTypes,
-    PyramidLabelSide, 
-    SliceLabelFormatters, 
+    PyramidLabelSide,
+    SliceLabelFormatters,
     lightningChart,
     LegendBoxBuilders,
     SolidFillPalette,
     ColorPalettes,
-    UIOrigins 
+    UIOrigins
 } = lcjs
 
 // Create a Pyramid chart
 const pyramid = lightningChart()
-    .Pyramid( { type: PyramidChartTypes.LabelsOnSides } )
-    .setTitle( 'Company staff growth' )
-    .setAnimationsEnabled( true )
-    .setNeckWidth( 80 )
-    .setSliceGap( 5 )
-    .setPadding( { bottom:45 } )
-    .setLabelSide( PyramidLabelSide.Right )
+    .Pyramid({ type: PyramidChartTypes.LabelsOnSides })
+    .setTitle('Company staff growth')
+    .setAnimationsEnabled(true)
+    .setNeckWidth(80)
+    .setSliceGap(5)
+    .setPadding({ bottom: 45 })
+    .setLabelSide(PyramidLabelSide.Right)
 
 // Data for slices
 const data = [
@@ -46,22 +46,22 @@ const data = [
     }
 ]
 // Add data to the slices
-pyramid.addSlices( data )
+pyramid.addSlices(data)
 
 
 // Create warm Palette for Pyramid (defines color of Slice filling)
-const palette = SolidFillPalette( ColorPalettes.warm, data.length)
+const palette = SolidFillPalette(ColorPalettes.warm, data.length)
 pyramid.setSliceFillStyle(palette)
 
 // Set formatter of Slice Labels
-pyramid.setLabelFormatter( SliceLabelFormatters.NamePlusValue )
+pyramid.setLabelFormatter(SliceLabelFormatters.NamePlusValue)
 
 // Add LegendBox and define the position in the chart
 const lb = pyramid
-    .addLegendBox( LegendBoxBuilders.VerticalLegendBox )
-    .setPosition( { x: 0, y: 0 } )
-    .setOrigin( UIOrigins.LeftBottom )
-    .setMargin( 5 )
-    
+    .addLegendBox(LegendBoxBuilders.VerticalLegendBox)
+    .setPosition({ x: 0, y: 0 })
+    .setOrigin(UIOrigins.LeftBottom)
+    .setMargin(5)
+
 // Add the Pyramid to the LegendBox and disable the button click functionality.
-lb.add( pyramid, false )
+lb.add(pyramid, false)
