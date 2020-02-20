@@ -67,7 +67,8 @@ pyramid.setNeckWidth( 80 )
 // Set the gap between each of the slices. This value can be between 0 to 20 pixels.
 pyramid.setSliceGap( 5 )
 
-// If the labels are set to be placed on the side of the Pyramid, we can determine the side here as well.
+// If the labels are set to be placed on the side of the Pyramid,
+// we can determine the side here as well.
 pyramid.setLabelSide( PyramidLabelSide.Right )
 
 ```
@@ -85,7 +86,8 @@ pyramid.setSliceFillStyle( palette )
 The labels for all slices can be formatted in different ways.
 
 ```javascript
-// Set the label formatting to show the slice's name and the relative value (size of the slice as percentage).
+// Set the label formatting to show the slice's name and the relative value
+// (size of the slice as percentage).
 pyramid.setLabelFormatter( SliceLabelFormatters.NamePlusRelativeValue )
 ```
 
