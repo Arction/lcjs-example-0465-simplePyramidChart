@@ -139,12 +139,12 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[PyramidChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/pyramidchart.html
-[PyramidChartTypes]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#pyramidcharttypes
-[PyramidLabelSide]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/enums/pyramidlabelside.html
-[SliceLabelFormatter]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#slicelabelformatter
-[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#colorpalettes
-[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#solidfillpalette
-[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/solidline.html
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/solidfill.html
+[PyramidChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/pyramidchart.html
+[PyramidChartTypes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#pyramidcharttypes
+[PyramidLabelSide]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/enums/pyramidlabelside.html
+[SliceLabelFormatter]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#slicelabelformatter
+[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#colorpalettes
+[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#solidfillpalette
+[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidline.html
+[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidfill.html
 
