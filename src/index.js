@@ -13,12 +13,16 @@ const {
     LegendBoxBuilders,
     SolidFillPalette,
     ColorPalettes,
-    UIOrigins
+    UIOrigins,
+    Themes
 } = lcjs
 
 // Create a Pyramid chart
 const pyramid = lightningChart()
-    .Pyramid({ type: PyramidChartTypes.LabelsOnSides })
+    .Pyramid({
+        // theme: Themes.dark 
+        type: PyramidChartTypes.LabelsOnSides
+    })
     .setTitle('Company staff growth')
     .setAnimationsEnabled(true)
     .setNeckWidth(80)

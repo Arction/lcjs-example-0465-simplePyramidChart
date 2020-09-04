@@ -108,14 +108,14 @@ pyramid.setLabelConnectorStyle(
 
 ## API Links
 
-* Pyramid Chart: [PyramidChart]
-* Pyramid Chart Types: [PyramidChartTypes]
-* Pyramid Label Side: [PyramidLabelSide]
-* Slice label formatter: [SliceLabelFormatter]
-* Palette: [ColorPalettes]
-* SolidFillPalette: [SolidFillPalette]
-* Solid Line: [SolidLine]
-* Solid Fill: [SolidFill]
+* [Pyramid Chart]
+* [Pyramid Chart Types]
+* [Pyramid Label Side]
+* [Slice label formatter]
+* [Palette]
+* [SolidFillPalette]
+* [Solid Line]
+* [Solid Fill]
 
 
 ## Support
@@ -139,12 +139,12 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[PyramidChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/pyramidchart.html
-[PyramidChartTypes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#pyramidcharttypes
-[PyramidLabelSide]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/enums/pyramidlabelside.html
-[SliceLabelFormatter]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#slicelabelformatter
-[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#colorpalettes
-[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#solidfillpalette
-[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidline.html
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidfill.html
+[Pyramid Chart]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/pyramidchart.html
+[Pyramid Chart Types]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#pyramidcharttypes
+[Pyramid Label Side]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/enums/pyramidlabelside.html
+[Slice label formatter]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#slicelabelformatter
+[Palette]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#colorpalettes
+[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#solidfillpalette
+[Solid Line]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/solidline.html
+[Solid Fill]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/solidfill.html
 
