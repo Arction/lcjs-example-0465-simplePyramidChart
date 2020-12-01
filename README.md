@@ -139,12 +139,12 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[Pyramid Chart]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/pyramidchart.html
-[Pyramid Chart Types]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#pyramidcharttypes
-[Pyramid Label Side]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/enums/pyramidlabelside.html
-[Slice label formatter]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#slicelabelformatter
-[Palette]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#colorpalettes
-[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#solidfillpalette
-[Solid Line]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/solidline.html
-[Solid Fill]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/solidfill.html
+[Pyramid Chart]: https://www.arction.com/lightningchart-js-api-documentation/v2.1.0/classes/pyramidchart.html
+[Pyramid Chart Types]: https://www.arction.com/lightningchart-js-api-documentation/v2.1.0/globals.html#pyramidcharttypes
+[Pyramid Label Side]: https://www.arction.com/lightningchart-js-api-documentation/v2.1.0/enums/pyramidlabelside.html
+[Slice label formatter]: https://www.arction.com/lightningchart-js-api-documentation/v2.1.0/globals.html#slicelabelformatter
+[Palette]: https://www.arction.com/lightningchart-js-api-documentation/v2.1.0/globals.html#colorpalettes
+[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v2.1.0/globals.html#solidfillpalette
+[Solid Line]: https://www.arction.com/lightningchart-js-api-documentation/v2.1.0/classes/solidline.html
+[Solid Fill]: https://www.arction.com/lightningchart-js-api-documentation/v2.1.0/classes/solidfill.html
 
