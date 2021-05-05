@@ -54,18 +54,15 @@ pyramid.addSlices(data)
 
 
 // Create warm Palette for Pyramid (defines color of Slice filling)
-const palette = SolidFillPalette(ColorPalettes.warm, data.length)
-pyramid.setSliceFillStyle(palette)
+// const palette = SolidFillPalette(ColorPalettes.warm, data.length)
+// pyramid.setSliceFillStyle(palette)
 
 // Set formatter of Slice Labels
 pyramid.setLabelFormatter(SliceLabelFormatters.NamePlusValue)
 
 // Add LegendBox and define the position in the chart
 const lb = pyramid
-    .addLegendBox(LegendBoxBuilders.VerticalLegendBox)
-    .setPosition({ x: 0, y: 0 })
-    .setOrigin(UIOrigins.LeftBottom)
-    .setMargin(5)
+    .addLegendBox(LegendBoxBuilders.HorizontalLegendBox)
 
 // Add the Pyramid to the LegendBox and disable the button click functionality.
-lb.add(pyramid, false)
+lb.add(pyramid, { disposeOnClick: false })
