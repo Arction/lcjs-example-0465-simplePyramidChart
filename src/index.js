@@ -10,7 +10,7 @@ const { PyramidChartTypes, PyramidLabelSide, SliceLabelFormatters, lightningChar
 // Create a Pyramid chart
 const pyramid = lightningChart()
     .Pyramid({
-        // theme: Themes.darkGold
+        theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
         type: PyramidChartTypes.LabelsOnSides,
     })
     .setTitle('Company staff growth')
