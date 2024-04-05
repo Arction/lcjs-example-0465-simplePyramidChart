@@ -8,7 +8,9 @@ const lcjs = require('@arction/lcjs')
 const { PyramidChartTypes, PyramidLabelSide, SliceLabelFormatters, lightningChart, LegendBoxBuilders, Themes } = lcjs
 
 // Create a Pyramid chart
-const pyramid = lightningChart()
+const pyramid = lightningChart({
+            resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
+        })
     .Pyramid({
         theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
         type: PyramidChartTypes.LabelsOnSides,
